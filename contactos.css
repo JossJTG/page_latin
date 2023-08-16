@@ -44,8 +44,8 @@ p {
 .cont{
     text-align: center;
     color: #F58D2B;
-    padding: 5rem 8rem;
-    margin-bottom: 2rem;
+    padding: 4rem 6rem;
+    margin: -1.2rem -1.27rem 2rem -1.27rem;
     background-color: #252030;
     /*padding: 50px 550px 170px 550px;
     margin: 0% -92.2% 5% -92.2%;
@@ -63,7 +63,7 @@ p {
 
 .icons{
     display: inline-block;
-    margin: 0px 30px;
+    margin: 0 10rem;
 }
 
 img{
