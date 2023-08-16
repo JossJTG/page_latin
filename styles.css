@@ -70,19 +70,27 @@ body {
     border-radius: 5px;
 }
 
-.features {
-    /* flex-direction: column; */
+.feature-container{
     display: flex;
     justify-content: space-around;
-    padding: 5rem 0;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2rem 0;
 }
 
 .feature {
+    /* display: inline-block; */
+    background-color: #ff6600;
     text-align: center;
     color: white;
-    background-color: brown;
-    padding: 2rem 0;
-    margin: 1rem;
+    padding: 1rem 3rem 2rem;
+    flex: 0 0 calc(30% - 1rem);
+    margin: 0.5rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /*display: inline-block; */
 }
 
 
