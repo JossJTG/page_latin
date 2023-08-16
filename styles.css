@@ -85,7 +85,7 @@ body {
     background-color: #ff6600;
     text-align: center;
     color: white;
-    padding: 1rem 3rem 2rem;
+    padding: 0rem 3rem 0rem;
     flex: 0 0 calc(30% - 1rem);
     margin: 0.5rem;
     border-radius: 5px;
