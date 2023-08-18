@@ -54,9 +54,9 @@ body {
 }
 
 .hero {
-    background-image: url('assets/empresa.jpg');
+    background-image: url('');
     background-size: cover;
-    color: black;
+    color: white;
     text-align: center;
     padding: 5rem 0;
 }
