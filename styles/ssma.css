@@ -4,15 +4,6 @@ body {
     padding: 0;
 }
 
-.header {
-    background-color: #171717;
-    color: white;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .cta-button {
     display: inline-block;
     background-color: #ff6600;
@@ -30,9 +21,10 @@ h1{
 
 .concept{
     background-color: darkslateblue;
-    text-align: center;
+    text-align: justify;
     color: azure;
-    padding: 2rem;
+    padding: 2rem 9rem;
+    display: inline-flex;
 }
 
 .courses{
@@ -55,4 +47,45 @@ h1{
     max-width: calc(20% -2rem);
     box-sizing: border-box;
     border-radius: 15px;
+}
+
+
+/* //Encabezado */
+.header {
+    background-color: #171717;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171717;
+    color: white;
+    padding: 2px;
+}
+
+.logo{
+    max-height: 100%;
+    margin: 0%;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li{
+    text-decoration: none;
+    color: white;
 }
