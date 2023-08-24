@@ -32,6 +32,17 @@ h1{
     width: 100%;
 }
 
+@media (max-width: 900px){
+    .concept{
+        flex-direction: column;
+        padding-right: 4rem 10%;
+    }
+
+    .concept img{
+        order: -1;
+    }
+}
+
 .courses{
     background-color: #171717;
     padding: 1rem;
