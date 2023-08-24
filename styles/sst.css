@@ -36,11 +36,11 @@ h1{
         flex-direction: column;
         align-items: center;
         text-align: justify;
-        padding: 2rem 10% 2rem 5%;
+        padding: 2rem 13% 2rem 4%;
     }
 
     .concept img{
-        padding-left: 10%;
+        padding-left: 13%;
     }
 }
 
