@@ -24,8 +24,12 @@ h1{
     background-color: darkslateblue;
     text-align: justify;
     color: azure;
-    padding: 2rem 9rem;
-    display: inline-flex;
+    padding: 2rem 10%;
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .courses{
