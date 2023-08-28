@@ -4,6 +4,7 @@ body {
     padding: 0;
 }
 
+
 .cta-button {
     display: inline-block;
     background-color: #ff6600;
@@ -23,8 +24,24 @@ h1{
     background-color: darkslateblue;
     text-align: justify;
     color: azure;
-    padding: 2rem 9rem;
-    display: inline-flex;
+    padding: 2rem 10%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+@media (max-width: 910px){
+    .concept{
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        padding: 2rem 13% 2rem 4%;
+    }
+
+    .concept img{
+        padding-left: 13%;
+    }
 }
 
 .courses{
